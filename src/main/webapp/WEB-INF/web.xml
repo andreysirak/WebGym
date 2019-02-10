@@ -4,4 +4,40 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>list</servlet-name>
+		<servlet-class>app.servlets.ListServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>app.servlets.AddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddServlet</servlet-name>
+		<display-name>AddServlet</display-name>
+		<description></description>
+		<servlet-class>app.servlets.AddServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>list</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddServlet</servlet-name>
+		<url-pattern>/AddServlet</url-pattern>
+	</servlet-mapping>
+    
+    
+    
+    
+    
 </web-app>
