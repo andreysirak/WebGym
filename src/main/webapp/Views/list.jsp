@@ -7,6 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
+ <div>
+            <h1>Super app!</h1>
+        </div>
 
+       
+               
+        
+       
+
+        <div>
+            <button onclick="location.href='/WebGym/'">Back to main</button>
+        </div>
 </body>
 </html>
