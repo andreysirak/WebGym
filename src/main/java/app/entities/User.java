@@ -2,6 +2,8 @@ package app.entities;
 
 public class User {
 	
+	//test comment to test PR
+	
 	private String name;
     private String password;
     
