@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 import app.entities.User;
 
 public class Model {
+	
+	//test comment in master to test PR
 
 	private static Model instance = new Model();
 
